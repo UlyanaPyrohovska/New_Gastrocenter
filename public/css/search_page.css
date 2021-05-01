@@ -1,0 +1,70 @@
+.big_div {
+  font-family: Raleway;
+  margin: 55px auto;
+  align-self: center;
+  max-width: 1500px;
+  min-height: 500px;
+  width: 100%;
+  background: url("../../public/images/back_pro_nas.svg") center center no-repeat;
+}
+.wrap_search {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 970px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+}
+.header1 {
+  width: 400px;
+  height: 42px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+}
+.found {
+  height: 23px;
+  font-family: Raleway;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #8E8E8E;
+}
+.search_res {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  max-width: 970px;
+  padding: 20px;
+}
+.res_header {
+  padding: 20px 0px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #009986;
+}
+.res_text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+

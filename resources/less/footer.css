@@ -1,0 +1,168 @@
+.footer {
+  max-width: 1600px;
+  width: 100%;
+  min-height: 265px;
+  max-height: 579px;
+  background: #C4C4C4;
+  margin: auto;
+}
+.footer_container {
+  padding-top: 70px;
+  height: 100px;
+  max-width: 1057px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.rezym_text,
+.rezym_text1 {
+  width: 102px;
+  height: 25px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.rezym_text2,
+.rezym_text3 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 600px;
+  width: 100%;
+}
+.cont_b1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 270px;
+  width: 100%;
+}
+.cont_bl_text {
+  max-width: 233px;
+  width: 100%;
+}
+.pin {
+  margin-top: 35px;
+  width: 30px;
+  height: 40px;
+}
+.pho {
+  margin-top: 15px;
+  height: 25px;
+  width: 25px;
+}
+.env {
+  height: 25px;
+  width: 25px;
+}
+.cont_b2 {
+  width: 140px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blbl,
+.blbl2,
+.soc1,
+.soc2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blbl2 {
+  width: 130px;
+}
+.blbl2 {
+  margin-top: 15px;
+}
+.insta {
+  height: 25px;
+  width: 25px;
+}
+.facebook {
+  height: 25px;
+  width: 25px;
+}
+.soc1,
+.soc2 {
+  margin-top: 15px;
+  width: 170px;
+  align-items: center;
+}
+.soc_text2 {
+  width: 135px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin: auto;
+}
+@media (max-width: 950px) {
+  .footer {
+    height: 579px;
+    text-align: center;
+  }
+  .footer_container {
+    height: 450px;
+    flex-direction: column;
+  }
+  .contacts {
+    flex-direction: column;
+    margin: auto;
+    height: 225px;
+  }
+  .pho {
+    display: none;
+  }
+  .env {
+    display: none;
+  }
+  .rezym_text,
+  .rezym_text2,
+  .rezym_text1,
+  .rezym_text3,
+  .soc_text2 {
+    text-align: center;
+    margin: auto;
+  }
+  .rezym_text {
+    width: 65px;
+  }
+  .pin {
+    display: none;
+  }
+  .cont_b1,
+  .cont_b2 {
+    margin: auto;
+  }
+  .social,
+  .rezym,
+  .cont_bl_text,
+  .phphp {
+    margin: auto;
+  }
+  .footer_container {
+    padding-top: 35px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

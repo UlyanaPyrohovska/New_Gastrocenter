@@ -1,0 +1,107 @@
+.big_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  align-self: center;
+  max-width: 1500px;
+  width: 100%;
+  text-align: center;
+  background: url("../../public/images/back_pro_nas.svg") center center no-repeat;
+}
+.wrap_wrap {
+  margin-top: 200px;
+}
+.wrap_pro_nas {
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 672px;
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+}
+.pro_nas {
+  width: 162px;
+  height: 42px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.header1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+}
+.photo_container {
+  max-width: 735px;
+  width: 100%;
+  display: flex;
+  margin: 65px auto;
+  flex-direction: row;
+  align-items: center;
+}
+.photo {
+  background: url("../../public/images/pro_nas.jpg") center center no-repeat;
+  background-size: cover;
+  width: 637px;
+  height: 398px;
+}
+.wrap_bub {
+  position: relative;
+  display: flex;
+  margin-top: 350px;
+  justify-content: center;
+  padding: 20px 20px;
+}
+.bubbles {
+  min-width: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .wrap_pro_nas {
+    margin: auto 5px;
+  }
+}
+@media (max-width: 450px) {
+  .wrap_bub {
+    margin-top: 160px;
+  }
+  .wrap_pro_nas {
+    margin: auto;
+    width: 307px;
+    height: 1198px;
+  }
+  .big_div {
+    height: 2100px;
+    background: url("../../public/images/mobile_back.svg") center center no-repeat;
+  }
+  .photo_container {
+    width: 360px;
+  }
+  .str1 {
+    width: 20px;
+    height: 20px;
+  }
+  .str2 {
+    width: 20px;
+    height: 20px;
+  }
+}
+/*# sourceMappingURL=pro_nas.css.map */
