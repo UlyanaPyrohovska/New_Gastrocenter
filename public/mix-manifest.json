@@ -1,10 +1,4 @@
 {
-    "/css/search.css": "/css/search.css",
-    "/css/search_page.css": "/css/search_page.css",
-    "/css/doctors.css": "/css/doctors.css",
-    "/css/pro_nas.css": "/css/pro_nas.css",
-    "/css/landing.css": "/css/landing.css",
-    "/css/header.css": "/css/header.css",
-    "/css/footer.css": "/css/footer.css",
-    "/css/ask_form.css": "/css/ask_form.css"
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css"
 }
